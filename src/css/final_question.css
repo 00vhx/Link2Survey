@@ -1,0 +1,47 @@
+.final-container{
+    .final-main{
+        .final-page{
+            display: flex;
+                justify-content: center;
+            .final-wrapper{
+                padding: 121px 76px 21px 76px;
+                border-radius: 80px;
+                background-color: #F3F6FF;
+                position: relative;
+                width: 1379px;
+            .complete-msg{
+                font-size: 40px;
+                font-weight: 700;
+                color: #1D0F8A;
+            }
+            .text{
+                font-size: 70px;
+                font-weight: 600;
+                color: #000000;
+                position: relative;
+                z-index: 5;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                right: 200px;
+                top: 10px;
+                z-index: 1;
+            }
+            
+            .submit-btn{
+                width: 395px;
+                border-radius: 10px;
+                background-color: #2e3396;
+                font-size: 30px;
+                font-weight: 700;
+                color: #ffffff;
+                text-align: center;
+                padding: 13px 0;
+                margin: 57px auto 57px auto;
+            }
+        }
+        }
+    }
+}

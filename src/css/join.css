@@ -1,0 +1,109 @@
+.join-container{
+    .join-main{
+        .join-page{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .logo-img-wrapper{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .logo-img{
+                    width: 238px;
+                    height: 235px;
+                }
+                .join-title{
+                    font-size: 40px;
+                    font-weight: 700;
+                    text-align: center;
+                    padding-bottom: 100px;
+                }
+            }
+            .join-form-wrapper{
+                display: flex;
+                flex-direction: column;
+                gap:23px;
+                width: 600px;
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    height: 71px;
+                    p{
+                       font-size: 25px;
+                       font-weight: 400;
+                       color: #343434;
+                       width: 250px;
+                       padding-right: 22px;
+                    }
+                    strong{
+                        color: #e62121;
+                    }
+                    input{
+                        border: 1px solid #aeabab;
+                        border-radius: 15px;
+                        height: 100%;
+                        width: 100%;
+                        padding:0 38px;
+                        font-size: 22px;
+                        color: #343434;
+                    }
+                    input::placeholder{
+                        font-size: 22px;
+                        color: #343434;
+                    }
+                    input.phone-number{
+                        width: 40px;
+                    }
+                    .dropdown-container{
+                        width: 720px;
+                        .dropdown-select{
+                        border: 1px solid #aeabab;
+                        border-radius: 15px;
+                        height: 100%;
+                        width: 100%;
+                        padding:0 38px;
+                        font-size: 22px;
+                        color: #343434;
+                        width: 100%;
+                        font-weight: unset;
+                        text-align: unset;
+                    }
+                    }
+                    .phone-wrapper{
+                        display: flex;
+                        gap: 12px;
+                        font-size: 40px;
+                        color: #aeabab;
+                    }
+                    .sex-wrapper{
+                        display: flex;
+                        gap:70px;
+                        width: 130%;
+                        label{
+                            display: flex;
+                            flex-direction: row;
+                            font-size: 22px;
+                            input{
+                                width: 25px;
+                                height: 25px;
+                                margin-right: 18px;
+                            }
+                        }
+                    }
+                }
+                .join-btn{
+                    border-radius: 15px;
+                    background-color: #201852;
+                    color: #FFFFFF;
+                    font-size: 40px;
+                    font-weight: 800;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}

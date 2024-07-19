@@ -1,12 +1,26 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 const Header = () => {
+
+    const navigate = useNavigate();
+
+    const onClickLogin = () => {
+        navigate('/login');
+    };
+    const onClickMain = () => {
+        navigate('/');
+    };
+    const onClickJoin = () => {
+        navigate('/join');
+    };
     return (
-        <div class="header">
-            <div class="header-img">
+        <div className="header">
+            <div className="header-img" onClick={onClickMain}>
             LInk2Survey
             </div>
-            <div class="login-wrapper">
-                <div class="login">Log in</div>
-                <div class="login">Join us</div>
+            <div className="login-wrapper">
+                <div className="login" onClick={onClickLogin}>Log in</div>
+                <div className="login"  onClick={onClickJoin}>Join us</div>
             </div>
         </div>
     )
