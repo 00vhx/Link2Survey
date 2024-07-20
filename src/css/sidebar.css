@@ -1,0 +1,22 @@
+.mypage{
+    background-color:#F3F6FF ;
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    .sidebar-area{
+        padding: 25px 100px;
+        font-size: 4rem;
+        color: #929292;
+    }
+    .sidebar-area.withdrawal{
+        font-weight: 700;
+        color: #DD0000;
+    }
+}
+.my-profile{
+    .title{
+        color: #929292;
+        font-size: 35px;
+    }
+}
+}

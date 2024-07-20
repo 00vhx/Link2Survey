@@ -1,0 +1,30 @@
+.survey-list-page{
+    font-size: 50px;
+    font-weight: 800;
+    .top-wrapper{
+        padding: 50px 0;
+        background-color: #F3F6FF;
+        p{
+            padding-left: 73px;
+            margin: unset;
+        }
+        .recommand-wrapper{
+            padding: 0 43px;
+            display: flex;
+    justify-content: center;
+            .item-wrapper{
+        display: flex;
+        flex-direction: row;
+        gap:45px
+            }
+        }
+    }
+    .bottom-wrapper{
+        padding: 83px 75px;
+        .item-list-wrapper{
+            display: flex;
+            flex-direction: column;
+            gap:43px ;
+        }
+    }
+}
