@@ -1,5 +1,26 @@
-.final-container{
+.final-gift-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 600px;
+        height: 600px;
+    }
+    .complete-msg{
+        font-size: 80px;
+        color: #1D0F8A;
+        font-weight: 800;
+        p{
+            font-size: 25px;
+            color: #000000;
+            margin: unset;
+            text-align: center;
+            padding: 45px 0 88px 0;
+        }
+    }
+    .final-container{
     .final-main{
+        width: 1300px;
         .final-page{
             display: flex;
                 justify-content: center;
@@ -9,14 +30,9 @@
                 background-color: #F3F6FF;
                 position: relative;
                 width: 1379px;
-            .complete-msg{
+            .text{
                 font-size: 40px;
                 font-weight: 700;
-                color: #1D0F8A;
-            }
-            .text{
-                font-size: 70px;
-                font-weight: 600;
                 color: #000000;
                 position: relative;
                 z-index: 5;
@@ -25,7 +41,7 @@
                 width: 200px;
                 height: 200px;
                 position: absolute;
-                right: 200px;
+                right: 400px;
                 top: 10px;
                 z-index: 1;
             }
@@ -44,4 +60,5 @@
         }
         }
     }
+}
 }

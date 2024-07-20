@@ -8,7 +8,8 @@ import './App.css';
 import CreatePage from './pages/creator/CreatePage';
 import MyPage from './pages/mypage/MyPage';
 import FinalQuestion from './pages/FinalQuestion';
-
+import SurveyDetail from './pages/survey/SurveyDetail';
+import SurveyList from './pages/survey/SurveyList';
 function App() {
     return (
         <Router>
@@ -19,6 +20,8 @@ function App() {
                     <Route path="/create" element={<Layout><CreatePage /></Layout>} />
                     <Route path="/mypage" element={<Layout><MyPage /></Layout>} />
                     <Route path="/final" element={<Layout><FinalQuestion /></Layout>} />
+                    <Route path="/surveydetail" element={<Layout><SurveyDetail /></Layout>} />
+                    <Route path="/surveylist" element={<Layout><SurveyList /></Layout>} />
                 </Routes>
         </Router>
     );
